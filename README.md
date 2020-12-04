@@ -21,7 +21,7 @@ Execute the following commands in given order from the .sln directory-
 
 To run unit test cases - `dotnet test`
 
-Validate the API from Postman ([Download](https://www.postman.com/downloads/)). Create post request for `http://localhost:5000/api/battery/monitor`.
+Validate the API from Postman ([Download](https://www.postman.com/downloads/)). Create post request for `https://localhost:5000/api/battery/monitor`.
 
 ## Assumptions
 
