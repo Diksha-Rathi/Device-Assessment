@@ -21,7 +21,6 @@ namespace DeviceAssessment.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddTransient<IBatteryService, BatteryService>();
-            services.AddScoped<BatteryMonitor>();
             services.AddControllers();
             services.AddSwaggerGen();
         }
