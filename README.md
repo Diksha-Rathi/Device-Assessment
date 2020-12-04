@@ -48,9 +48,9 @@ Naming convention has been followed such that the service can be extended to ass
 
 1. Group JSON results by serial number.
 2. Sort groups in ascending order of date.
-3. If number of data points for a date
+3. If number of data points for a given serial number
    * Equals 0: Add "unknown" to result
-   * Equal to 1: Find average from the first the nearest almost full charge value and reset previously calculated average.
+   * Equal to 1: Find average from the first nearest almost full charge value and reset previously calculated average.
    * Greather than 1: Find average for 24 hours.
 
 
